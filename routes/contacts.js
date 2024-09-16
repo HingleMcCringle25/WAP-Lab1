@@ -30,4 +30,5 @@ router.delete('/delete/:id', (req, res) => {
     const id = req.params.id;
     res.send('Contact with ID ' + id + ' deleted');
 });
+
 export default router;
